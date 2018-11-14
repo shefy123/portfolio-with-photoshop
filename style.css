@@ -6,6 +6,26 @@ nav {
 .slider .indicators {
     display: none;
 }
+.slides {
+    height: 700px !important ;
+}
+.slider .slides li .caption {
+  
+    top: 30%;
+}
+
+.slides i {
+    font-size: 50px;
+    margin-top: 16px;
+    padding-top: 16px;
+
+}
+/* #left-button {
+    margin-left: 0px !important;
+}
+#right-button {
+    margin-right: 0px !important;
+} */
 /* header icon styling */
 .header-icon {
     display: flex;
@@ -61,7 +81,7 @@ background-color: #FF9800 !important;
 
 .slider {
     position: relative;
-    height: 330px !important;
+    height: 630px !important;
     width: 100%;
     top: -70px;
     z-index: -9;
@@ -69,12 +89,20 @@ background-color: #FF9800 !important;
 h3 {
     font-family: 'Norican', cursive;
 }
-
+/* .second-container {
+    background-color:#ed5a26;
+    height: 650px;
+    width: 100%;
+    padding: 16px;
+} */
+.paddingAll {
+    margin-bottom: 0px;
+}
 .paddingAll .col {
     text-align: center;
     line-height: normal;
     background-color:#ed5a26;
-    
+    padding: 16px;
 }
 
 .paddingAll i {
@@ -82,6 +110,7 @@ h3 {
 }
 .paddingAll p {
     font-size: 14px;
+  
 }
 .deep-orange {
     
@@ -94,7 +123,18 @@ h3 {
 }
 
 /* SELETED WORK DETAIL */
+#selected-work {
+    background-color:#e7dede;
+    width: 100%;
+    height: 1400px;
 
+}
+.selected-button {
+    margin-bottom: 16px;
+}
+.design {
+    margin-bottom: 16px;
+}
 .design h1{
     color: #161b21;
     font-size: 20px;
@@ -107,7 +147,15 @@ h3 {
     border-radius: 5px;
     width: 90px;
 }
-
+span .btn {
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+    color: #161b21 !important;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 12px;
+}
 
 .fontWeight {
   
@@ -125,12 +173,7 @@ h3 {
     flex-direction: column;
 }
 
-/* .card {
-    box-shadow: none !important;
-   
-    width: 60%;
-    margin: 0px;
-} */
+
 
 .images-detail {
     display: flex;
@@ -138,33 +181,47 @@ h3 {
     flex-wrap: wrap;
     width: 100%;
 }
-
+.flex .row {
+    margin-bottom: 0px;
+}
 /* footer */
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #161b21;
 }
 .information {
-
+    margin-right: 16px;
     height: 200px;
     width: 280px;
-    background-color:black;
-    padding: 16px;
+  
+    
 }
-
+.massege {
+    margin-left: 16px;
+}
 .name , .email {
-    height: 80px;
-    width: 260px; 
+    height: 60px;
+    width: 300px; 
     background-color: #41576b;
-    border-radius: 2px;
-    margin: 16px;
+    padding-left: 8px;
 }
 
 .message-type {
-    height: 120px;
-    width: 260px; 
+    height: 134px;
+    width: 340px; 
     background-color: #41576b;
-    border-radius: 2px;
-    margin: 16px;
+    padding-left: 8px;
+    margin-left: 16px;
+}
+
+.contact-detail {
+    width: 100%;
+    height: 400px;
+}
+.contactForm {
+    display: flex;
 }
