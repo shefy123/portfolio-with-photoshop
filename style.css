@@ -115,7 +115,7 @@ h3 {
 }
 
 .fontWeight img {
-    width: 80% !important;
+    width: 100% !important;
     display: inline-block !important;
 
 }
@@ -125,8 +125,46 @@ h3 {
     flex-direction: column;
 }
 
-.card {
-    /* box-shadow: none !important; */
-    /* margin: 0px; */
+/* .card {
+    box-shadow: none !important;
+   
     width: 60%;
+    margin: 0px;
+} */
+
+.images-detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* footer */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.information {
+
+    height: 200px;
+    width: 280px;
+    background-color:black;
+    padding: 16px;
+}
+
+.name , .email {
+    height: 80px;
+    width: 260px; 
+    background-color: #41576b;
+    border-radius: 2px;
+    margin: 16px;
+}
+
+.message-type {
+    height: 120px;
+    width: 260px; 
+    background-color: #41576b;
+    border-radius: 2px;
+    margin: 16px;
 }
