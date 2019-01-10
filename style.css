@@ -8,7 +8,20 @@ body {
 nav {
     background-color: transparent;
 }
-
+nav ul a:hover {
+    background-color: transparent; 
+}
+/* nav list */
+.hvr-sweep-to-right {
+    background-color: transparent;
+}
+.hvr-sweep-to-right:before  {
+    background-color: #FF9800;
+}
+/* down arrow */
+.hvr-icon-down {
+    display: flow-root;
+}
 .slider .indicators {
     display: none;
 }
@@ -26,13 +39,27 @@ nav {
     padding-top: 16px;
 
 }
-/* #left-button {
-    margin-left: 0px !important;
+.slides i > a :hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+} 
+/* mobile screen nav */
+.sidenav {
+    text-align: center;
 }
-#right-button {
-    margin-right: 0px !important;
-} */
-/* header icon styling */
+.sidenav li {
+    width: 100%;
+}
+.sidenav li>a {
+  
+    padding: 0 60px;
+}
 .header-icon {
     display: flex;
     justify-content: flex-end;
@@ -95,19 +122,14 @@ background-color: #FF9800 !important;
 h3 {
     font-family: 'Norican', cursive;
 }
-/* .second-container {
-    background-color:#ed5a26;
-    height: 650px;
-    width: 100%;
-    padding: 16px;
-} */
+
 .paddingAll {
     margin-bottom: 0px;
 }
 .paddingAll .col {
     text-align: center;
     line-height: normal;
-    background-color:#ed5a26;
+    background-color:#FF9800;
     padding: 16px;
 }
 
@@ -119,13 +141,13 @@ h3 {
   
 }
 .deep-orange {
-    
+    background-color:#FF9800 !important;
     box-shadow: none !important;
 }
 
 /* button or view portfolio */
 .btn {
-    background-color:#ed5a26;
+    background-color:#FF9800;
 }
 
 /* SELETED WORK DETAIL */
@@ -230,4 +252,12 @@ span .btn {
 }
 .contactForm {
     display: flex;
+}
+
+/* media query */ 
+@media only screen and (max-width: 600px) {
+    .slides i {
+        font-size: 20px;
+
+    }
 }
